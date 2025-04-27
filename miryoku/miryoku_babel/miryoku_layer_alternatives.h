@@ -407,7 +407,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_FUN_CUSTOM \
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              U_MT(LGUI, F17),   U_MT(LALT, F18),   U_MT(LCTR, F19),   &kp LSHFT,         \
+&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              U_MT(LGUI, F17),   U_MT(LALT, F18),   U_MT(LCTRL, F19),   &kp LSHFT,         \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 

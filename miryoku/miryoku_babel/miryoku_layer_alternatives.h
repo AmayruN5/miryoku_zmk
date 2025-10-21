@@ -345,7 +345,7 @@ U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MEDIA_VI_CUSTOM \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         U_RGB_TOG,         \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         &u_to_U_GAME,         \
 &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          U_NA,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        U_EP_TOG,          \
 U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_out_tog,        \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
@@ -423,3 +423,18 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NU,              U_NU,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+
+
+#define MIRYOKU_ALTERNATIVES_GAME \
+&kp LALT,        &kp Q,            &kp F,                   &kp E,            &kp N1,          U_NA,    U_NA,    U_NA,     U_NA,    &u_to_U_BASE, \
+&kp LSHFT,       &kp A,            &kp W,                   &kp D,            &kp N2,          U_NA,    U_NA,    U_NA,     U_NA,    U_NA, \
+&kp TAB,         U_NA,             &kp S,                   &kp R,            &kp N3,          U_NA,    U_NA,    U_NA,     U_NA,    U_NA, \
+U_NP,            U_NP,             U_LT(U_GAME_EX, ESC),    &kp LCTRL,        &kp SPACE,       U_NA,    U_NA,    U_NA,     U_NP,    U_NP
+
+#define MIRYOKU_ALTERNATIVES_GAME_EX \
+&kp LALT,        &kp Q,            &kp F,           &kp E,            &kp N1,          U_NA,    U_NA,    U_NA,     U_NA,    U_NA, \
+&kp LSHFT,       &kp A,            &kp W,           &kp D,            &kp N2,          U_NA,    U_NA,    U_NA,     U_NA,    U_NA, \
+&kp TAB,         U_NA,             &kp S,           &kp R,            &kp N3,          U_NA,    U_NA,    U_NA,     U_NA,    U_NA, \
+U_NP,            U_NP,             &kp U_NA,        &kp LCTRL,        &kp SPACE,       U_NA,    U_NA,    U_NA,     U_NP,    U_NP
+
+
